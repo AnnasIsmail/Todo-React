@@ -1,0 +1,15 @@
+.do{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.do div{
+    display: flex;
+    gap: 5px;
+}
+
+.do h3{
+    margin: 0;
+}

@@ -1,0 +1,55 @@
+.container-do{
+    max-width: 600px;
+    width: 80%;
+    margin: auto !important;
+    display: grid !important;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 40px 1fr;
+    position: absolute !important;
+    bottom: 30px;
+    top: 30px;
+    height: auto !important;
+    left: 0;
+    right: 0;
+}
+
+.logo-container{
+    display: grid;
+    grid-template-columns: 60px auto;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo-container h1{
+    margin: 0 !important;
+    color: #9530D9;
+}
+
+.logo{
+    width: 100%;
+}
+
+.container-do input{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.container-do .button{
+    /* background-color: #9530D9 !important; */
+    /* color: white !important; */
+    height: 100%;
+    border-radius: 2px !important;
+}
+
+.container-to-do{
+    overflow: auto;
+}
+
+.container-do .container-input{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 100% !important;
+}
